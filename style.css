@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    /* border: 1px solid red; */
+}
+/* topbar section */
+#topbar{
+    background-color:rgb(1, 1, 41) ;
+}
+.info{
+    background-color:rgb(1, 1, 41);
+    display: flex;
+}
+.info p{
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+    font-size:12px;
+}
+.info i{
+    color:white;
+    margin-left:20px;
+}
+.para{
+    display: flex;
+}
+.icon{
+    margin-left:45%;
+}
+.icon i{
+    color:white;
+    margin-top:10px;
+    border:1px solid white;
+    border-radius:50%;
+    padding:5px;
+}
+/* topbar section end */
+
+/* navbar section */
+.navbar{
+    display: flex;
+   position: fixed !important;
+   z-index:1;
+   top: 0;
+   width:100%;
+   background-color: rgb(105, 103, 103);
+}
+.navbar i{
+   color:white;
+   font-size:40px;
+}
+.navbar-brand{
+    font-size:40px;
+    margin-left:10px;
+}
+.navbar ul li a{
+    font-size:20px;
+    margin-right:10px;
+}
+.navbar ul li a:hover{
+    color: rgb(12, 203, 228) !important;
+    text-decoration:underline;
+}
+.search i{
+    color: rgb(0, 174, 255);
+    font-size:18px;
+    margin-right:10px;
+    margin-top:5px;
+}
+.navbar .btn{
+    color:white;
+    background-color: rgb(0, 174, 255);
+}
+
+/* navbar section end */
+
+.caroussel-inner img{
+    background-image:blur;
+}
+
+
+
+
+
+
+
+/* main */
+
+#about .clients{
+    background-color:rgb(0, 174, 255);
+}
+#about .projects{
+    background-color:rgb(255, 255, 255);
+}
+#about .awards{
+    background-color:rgb(0, 174, 255);
+}
+#about .cpa{
+    display: flex;
+}
+#about .card{
+    background-color:white;
+    border:none;
+    width:90%;
+    margin-left:5%;
+    margin-top:100px;
+}
+#about .client-icon{
+    height:50px;
+    width:50px;
+    background-color:rgb(255, 255, 255);
+}
+#about .client-icon i{
+    margin-left: 15px;
+    margin-top:15px;
+    color:rgb(4, 129, 187);
+}
+#about .client-con{
+    margin-left:20px;
+}
+#about .client-con h5{
+    color:white;
+}
+#about .client-con p{
+    color:white;
+}
+#about .project-icon{
+    height:50px;
+    width:50px;
+    background-color:rgb(7, 127, 163);
+}
+#about .project-icon i{
+    margin-left: 15px;
+    margin-top:15px;
+    color:rgb(255, 255, 255);
+}
+#about .project-con{
+    margin-left:20px;
+}
+#about .project-con h5{
+    color:rgb(9, 99, 172);
+    font-weight:bold;
+}
+#about .project-con p{
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    font-weight: bolder;
+}
+.about-icon{
+    height:40px;
+    width:40px;
+    background-color:rgb(5, 133, 218);
+    
+}
+.about-icon i{
+    color:white;
+    margin-left:8px;
+    margin-top:10px;
+}
+.about-con h5{
+     color: rgb(36, 34, 34)!important;
+     margin-left:20px;
+     font-size:15px;
+}
+.about-con p{
+    color: rgb(0, 119, 255)!important;
+    margin-left:20px;
+    font-weight: bold;
+}
+#about .btn{
+    background-color: rgb(0, 119, 255)!important;
+    color:white;
+}
+#about h5{
+    color:rgb(5, 117, 168);
+}
+#about h3{
+    color: rgb(27, 26, 26);
+    font-size: 20px;
+    margin-left:150px;
+}
+#about h4{
+    color: rgb(27, 26, 26);
+    font-size: 20px;
+    margin-left:135px;
+}
+#about h2{
+    color: rgb(27, 26, 26);
+    font-size:20px;
+}
+#about h2 i{
+    color: rgb(5, 117, 168);
+}
+#about h3 i{
+    color: rgb(5, 117, 168);
+}
+#about h4 i{
+    color: rgb(5, 117, 168);
+}
+#business .card{
+    background-color:white;
+    border:none;
+    width:90%;
+    margin-left:5%;
+    margin-top:100px;
+}
+#business .card i{
+    font-size:20px;
+    color:white;
+    margin-top:10px;
+    margin-left:8px;
+}
+.business-icon{
+    height:40px;
+    width: 40px;
+    background-color: rgb(0, 140, 255);
+}
+
+#service .card{
+    width:400px;
+    height:300px;
+    margin-left:40px;
+    margin-top:20px;
+    background-color: rgb(206, 240, 235);
+}
+#service p{
+    color: rgb(129, 124, 124);
+}
+#service .card-icon{
+    height:40px;
+    width:40px;
+    background-color:rgb(0, 140, 255);
+    margin-left:170px;
+}
+#service .card-icon i{
+    margin-top:10px;
+    color:white;
+}
+
+#plans .card{
+    background-color:rgb(127, 206, 195);
+}
+#plans h4{
+    color:rgb(0, 140, 255);
+}
+#plans .card-header p{
+    color: rgb(85, 82, 82);
+    font-weight: 500;
+}
+#plans .card-body h5{
+    color: rgb(5, 4, 65);
+    font-weight:bold;
+}
+#plans .card-body i{
+    float: right;
+    color:rgb(0, 140, 255);
+}
+#request .card{
+    background-color:white;
+    border:none;
+    width:90%;
+    margin-left:5%;
+    margin-top:100px;
+}
+.request-icon {
+    height:50px;
+    width:50px;
+    background-color: rgb(0, 140, 255);
+}
+.request-icon i{
+    color:white;
+    margin-top:18px;
+    margin-left:15px;
+}
+#request h5{
+    color: rgb(4, 152, 189);
+}
+#request .card-text{
+    font-size:30px;
+    color: rgb(5, 4, 68);
+    font-weight: bold;
+}
+.support{
+    display: flex;
+}
+.support p{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.support p i{
+    color:rgb(4, 152, 189);
+    margin-right:15px;
+}
+.support2 p{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    margin-left:30px;
+}
+.form{
+    background-color: rgb(0, 217, 255);
+}
+.form input{
+    width:350px;
+    margin-left:25px;
+}
+.form select{
+    width:350px;
+    margin-left:25px;
+}
+.form textarea{
+    width:350px;
+    margin-left:25px;
+}
+.form .btn{
+    width:350px;
+    margin-left:25px;
+    background-color:rgb(2, 2, 46);
+    color:white;
+}
+
+.heading h1{
+    font-size:25px;
+    color: rgb(6, 177, 177);
+}
+.heading p{
+    font-size:40px;
+    color: rgb(4, 4, 83);
+    text-align: center;
+    font-weight:bold;
+}
+
+#test .card{
+    background-color:rgb(213, 236, 240);
+}
+#test .card .card-body p{
+    color: rgb(129, 127, 127);
+}
+#test .card-header{
+    display: flex;
+}
+#test .card-header h5{
+    margin-left: 10px;
+    color:rgb(6, 177, 177);
+}
+#test .card-header p{
+    margin-left: 10px;
+    color:rgb(102, 99, 99);
+}
+#images marquee{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#images marquee img{
+    margin-left:30px;
+}
+
+#contact {
+    background-color: rgb(2, 2, 34);
+}
+.footer{
+    background-color: rgb(6, 104, 160);
+    width:250px;
+}
+.footer i{
+    color:white;
+    font-size:40px;
+    margin-top:50px;
+}
+.footer p{
+    color:white;
+    font-size:15px;
+    font-weight:500px;
+    text-align: center;
+    padding:5px;
+    margin-top:30px;
+}
+.footer input{
+    text-align: center;
+    width:150px;
+    height:40px;
+    margin-left:5px;
+    margin-bottom:20px;
+}
+.footer .btn{
+    background-color: rgb(4, 4, 51);
+    color:white;
+    border-radius:0px 5px 5px 0px;
+    height:40px;
+}
+.links h1{
+    color:white;
+    font-size:30px;
+    margin-top:30px;
+}
+.links p{
+    color:wheat;
+}
+.links p i{
+    color:rgb(7, 113, 175);
+    margin-right:5px;
+}
+.link i{
+    color:rgb(255, 255, 255);
+    background-color: rgb(7, 113, 175);
+    padding:5px;
+}
+.links hr{
+    width:80px;
+    height:2px;
+    color:rgb(255, 255, 255) !important;
+
+}
+.copy{
+    text-align: center;
+    color:rgb(221, 214, 214);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px)  {
+    .para p{
+        font-size:10px;
+    }
+    .info.icon{
+        margin-left:-100px;
+    }
+    .info.icon i{
+        font-size:10px;
+        display:flex;
+
+    }
+    .masthead{
+        margin-top:  80px !important;
+    }
+    #about .card-group{
+        margin-top:-20px !important;
+    }
+    #about .card-group .card{
+        width:100%;
+        margin-top:20px;
+    }
+    #about .card-group .card .group{
+        margin-left:100px;
+    }
+    #about .card h2{
+        font-size:12px;
+    }
+    #about .card h3{
+        font-size:12px;
+    }
+    #about .card h4{
+        font-size:12px;
+    }
+    #service .card{
+        margin-left:5px;
+    }
+    .form{
+        width:100%;
+    }
+    .form input{
+        width:300px;
+    }
+    .form select{
+        width:300px;
+    }
+    .form textarea{
+        width:300px;
+    }
+    .form .btn{
+        width:300px;
+    }
+   #request .support p{
+    font-size:10px;
+   }
+   #team .card{
+      width:100% !important;
+      margin-left:4px;
+      margin-top:5px;
+   }
+   #blog .card{
+    margin-left:4px;
+ }
+
+
+
+
+
+ .footer{
+    width:100%;
+ }
+ .footer input{
+    width:250px;
+    margin-left:10px;
+ }
+}
